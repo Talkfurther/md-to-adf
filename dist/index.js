@@ -1004,7 +1004,7 @@ function attachItemNode( nodeToAttachTo, rawText ) {
 				break
 			
 			case 'emoji':
-				const emojiNode = new Emoji( {shortName: currentSlice.text } )
+				const emojiNode = new Emoji( {shortName: `:${currentSlice.text}:` } )
 				nodeToAttachTo.content.add( emojiNode )
 				break
 			

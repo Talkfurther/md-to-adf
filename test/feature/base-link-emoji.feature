@@ -21,5 +21,5 @@ Feature: Conversion link and emoji markdown
     When we translate it in ADF
     Then the ADF chunk at content path [ 0 ] has type 'paragraph'
     And the ADF chunk at content path [ 0 ] contains '{ "type": "text", "text": "Test with paragraph and an "}'
-    And the ADF chunk at content path [ 0 ] contains '{ "type": "emoji", "attrs": { "shortName": "smile" } }'
+    And the ADF chunk at content path [ 0 ] contains '{ "type": "emoji", "attrs": { "shortName": ":smile:" } }'
     And the ADF chunk at content path [ 0 ] contains '{ "type": "text", "text": " emoji"}'

@@ -50,7 +50,7 @@ Feature: Complex formatting mix
     And the ADF chunk at content path [ 2, 0, 0 ] has type 'paragraph'
     And the ADF chunk at content path [ 2, 0, 0 ] contains '{"type": "text", "text": "Ability to define a comparator function for packets " }'
     And the ADF chunk at content path [ 2, 0, 0, 1 ] has type 'emoji'
-    And the ADF chunk at content path [ 2, 0, 0, 1 ] has attribute '{ "shortName": "+1" }'
+    And the ADF chunk at content path [ 2, 0, 0, 1 ] has attribute '{ "shortName": ":+1:" }'
     And the ADF chunk at content path [ 2, 0, 0 ] contains '{"type": "text", "text": " these correspond to two abilities in the " }'
     And the ADF chunk at content path [ 2, 0, 0 ] contains '{"type": "text", "text": "editcap", "marks": [ { "type": "code" } ] }'
     And the ADF chunk at content path [ 2, 0, 0 ] contains '{"type": "text", "text": " tool from Wireshark. For example: " }'
